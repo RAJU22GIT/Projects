@@ -1,0 +1,30 @@
+<mvc:View controllerName="project1.controller.headerview"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+     <Table id="headertable" items="{/ZI_HEADER_29}">
+   
+            <columns>
+                <Column>
+                    <Text text="Sales Document Type"/>
+                </Column>
+                <Column>
+                    <Text text="Sales Organization"/>
+                </Column>
+                <Column>
+                    <Text text="Distribution Channel"/>
+                </Column>
+            </columns>
+    <items>
+        <ColumnListItem type="Navigation" press = "ondetails">
+        <cells>
+        <Text text="{Vbeln}"/>
+        <Text text="{Auart}"/>
+        <Text text="{Vkorg}"/>
+ 
+        </cells>
+        </ColumnListItem>
+    </items>
+    </Table>
+    </Page>
+</mvc:View>

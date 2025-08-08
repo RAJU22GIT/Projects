@@ -1,0 +1,6 @@
+BookId,Title,Stock,Author_AuthorID
+200001,The Alchemist,15,100001
+200002,The Life Memory,15,100005
+200003,Harry Potter,21,100002
+200004,Castle Town,2,100005
+200005,Miracle Girl,25,100004
